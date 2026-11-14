@@ -32,6 +32,9 @@ namespace KZYHDotNetTraining.ConsoleApp.Models
         [Column("BlogContent")]
         public string BlogContent { get; set; }
 
+        [Column("DeleteFlag")]
+        public bool DeleteFlag { get; set; }
+
 
     }
 }

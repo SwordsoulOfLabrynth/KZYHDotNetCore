@@ -12,7 +12,7 @@ namespace KZYHDotNetTraining.ConsoleApp
         {
             if (!optionsBuilder.IsConfigured)
             {
-                string connectionString = "Data Source=.;Initial Catalog=DotNetTraining;User Id=sa;Password=sasa@123";
+                string connectionString = "Data Source=.;Initial Catalog=DotNetTraining;User Id=sa;Password=sasa@123;TrustServerCertificate=true";
                 optionsBuilder.UseSqlServer(connectionString);
             }
         }

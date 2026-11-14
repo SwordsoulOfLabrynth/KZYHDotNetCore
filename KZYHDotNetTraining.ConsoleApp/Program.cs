@@ -30,7 +30,14 @@ DapperExample dapperExample= new DapperExample();
 //dapperExample.Edit(1);
 //dapperExample.Edit(2);
 //dapperExample.Update(1, "Hello", "Hi", "asdwfkws");
-dapperExample.Delete(3);
+//dapperExample.Delete(3);
+
+EFCoreExample eFCoreExample = new EFCoreExample();
+//eFCoreExample.Read();
+//eFCoreExample.Edit(1);
+//eFCoreExample.Create("TestBook", "TestAuthor", "TestContent");
+//eFCoreExample.Update(4, "Testing", "Author", "TestContent");
+eFCoreExample.Delete(5);
 
 
 
